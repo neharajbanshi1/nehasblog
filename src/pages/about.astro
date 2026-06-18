@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_AUTHOR } from '../consts';
+---
+
+<BaseLayout title="About">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-8">
+    <div class="text-center mb-6 text-4xl" aria-hidden="true">*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚</div>
+    <article class="prose max-w-none">
+      <h1>♡ About Me</h1>
+      <p>
+        Hi, I'm {SITE_AUTHOR}. This is my little corner of the internet where I share data analysis projects.
+      </p>
+      <p>
+        𖹭.ᐟ More about me coming soon...
+      </p>
+      <h2>⭑.ᐟ About This Site</h2>
+      <ul>
+        <li>Built with <a href="https://astro.build">Astro</a> + <a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+        <li>Deployed on <a href="https://vercel.com">Vercel</a></li>
+      </ul>
+      <h2>📬 Contact</h2>
+      <p>Find me on <a href="https://github.com/neharajbanshi1">GitHub</a> 𖹭.ᐟ</p>
+    </article>
+    <div class="text-center mt-10 text-lg opacity-40" aria-hidden="true">⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹</div>
+  </div>
+</BaseLayout>
